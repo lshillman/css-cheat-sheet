@@ -34,3 +34,15 @@ main {
 pre {
     margin-left: -8em;
 }
+
+footer {
+    background-color: var(--footerbg);
+    color: var(--lighttext);
+    position: fixed;
+    height: 2rem;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    text-align: center;
+}
