@@ -4,7 +4,7 @@
     --pagebg: linear-gradient(180deg, #7FB5FF, #fff);
     --lighttext: #fff;
     --darktext: #000;
-    --cardborder: #FF0000;
+    --cardborder: #ccc;
     --cardbg: white;
 }
 
@@ -34,15 +34,15 @@ main {
     padding: 1.5rem;
     margin: 1rem;
     box-shadow: 5px 7px 5px 5px gray;
-    width: 250px;
     border-radius: 20px;
     background: var(--cardbg);
-    max-width: 300px;
 }
 
 pre {
     border: 1px solid var(--cardborder);
+    border-radius: 5px;
     white-space: pre-line;
+    padding: 10px;
 }
 
 .code-indent {
@@ -60,3 +60,11 @@ footer {
 
 }
 
+@media screen and (max-width: 767px) {
+    main{
+        width: 100%;
+    }
+    .card {
+      width: 100%;
+    }
+  }
