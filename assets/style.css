@@ -3,11 +3,23 @@
     --footerbg: #7FB5FF;
     --codebg: #FEE2C5;
     --pagebg: #C4DDFF;
-
+    --lighttext: #fff;
+    --darktext: #000;
 }
 
+header {
+    background: var(--headerbg);
+    color: var(--lighttext);
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
 
-
+main {
+    margin: 150px auto 0 auto;
+}
 
 
 pre {
