@@ -1,10 +1,14 @@
+:root {
+    --headerbg: #001D6E;
+    --footerbg: #7FB5FF;
+    --codebg: #FEE2C5;
+    --pagebg: #C4DDFF;
 
-
-
-
-body {
-    background: #00FFFF;
 }
+
+
+
+
 
 pre {
     margin-left: -8em;
