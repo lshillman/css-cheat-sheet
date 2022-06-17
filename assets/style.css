@@ -39,6 +39,11 @@ main {
     background: var(--cardbg);
 }
 
+.card:hover {
+    transform:  rotate(360deg);
+    transition: transform 0.3s;
+}
+
 pre {
     border: 1px solid var(--cardborder);
     border-radius: 5px;
@@ -57,9 +62,6 @@ footer {
     height: 2rem;
     padding: 1rem;
     text-align: center;
-    
-
-
 }
 
 
