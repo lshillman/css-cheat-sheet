@@ -27,6 +27,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    width: 1000px;
 }
 
 .card {
@@ -43,6 +44,7 @@ pre {
     border-radius: 5px;
     white-space: pre-line;
     padding: 10px;
+    user-select: all;
 }
 
 .code-indent {
@@ -59,6 +61,17 @@ footer {
 
 
 }
+
+
+@media screen and (max-width: 991px) {
+    main{
+        width: 100%;
+    }
+    .card {
+      width: 30%;
+    }
+  }
+
 
 @media screen and (max-width: 767px) {
     main{
