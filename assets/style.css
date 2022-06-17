@@ -5,7 +5,9 @@
     --pagebg: #C4DDFF;
     --lighttext: #fff;
     --darktext: #000;
+    --cardborder: #FF0000;
 }
+
 
 header {
     background: var(--headerbg);
@@ -19,8 +21,15 @@ header {
 
 main {
     margin: 150px auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
+.card {
+    border: 1px solid var(--cardborder);
+    padding: 1.5rem;
+    margin: 1rem;
+}
 
 pre {
     margin-left: -8em;
