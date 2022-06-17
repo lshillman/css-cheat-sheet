@@ -41,7 +41,13 @@ main {
 }
 
 pre {
-    margin-left: -8em;
+    border: 1px solid var(--cardborder);
+    white-space: pre-line;
+}
+
+.code-indent {
+    display:inline-block;
+    margin-left: 2rem;
 }
 
 footer {
