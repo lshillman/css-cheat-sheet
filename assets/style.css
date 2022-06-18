@@ -1,15 +1,15 @@
 :root {
     --headerbg: #001D6E;
-    --codebg: #FEE2C5;
+    --cardbg: #fff;
     --pagebg: linear-gradient(180deg, #7FB5FF, #fff);
     --lighttext: #fff;
     --darktext: #000;
     --cardborder: #ccc;
-    --cardbg: white;
 }
 
 body {
     background: var(--pagebg) no-repeat;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -20,6 +20,7 @@ header {
     left: 0;
     width: 100%;
     text-align: center;
+    z-index: 3;
 }
 
 main {
@@ -35,9 +36,18 @@ main {
     padding: 1.5rem;
     width: 25%;
     margin: 1rem;
-    box-shadow: 5px 7px 5px 5px gray;
+    box-shadow: 5px 7px var(--headerbg);
     border-radius: 20px;
     background: var(--cardbg);
+}
+
+.card h2 {
+    margin-top: 0;
+    background: var(--headerbg);
+    color: var(--lighttext);
+    text-align: center;
+    padding:1rem;
+    border-radius: 2rem;
 }
 
 .card:hover {
