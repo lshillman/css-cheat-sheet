@@ -1,6 +1,6 @@
 ## css-cheat-sheet
 
-Useful CSS code snippets asemble here for your convenience. assembled 
+Useful CSS code snippets asembled here for your convenience. 
 
 
 ## Resources:
