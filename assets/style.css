@@ -33,6 +33,7 @@ main {
 .card {
     border: 1px solid var(--cardborder);
     padding: 1.5rem;
+    width: 25%;
     margin: 1rem;
     box-shadow: 5px 7px 5px 5px gray;
     border-radius: 20px;
@@ -47,9 +48,9 @@ main {
 pre {
     border: 1px solid var(--cardborder);
     border-radius: 5px;
-    white-space: pre-line;
     padding: 10px;
     user-select: all;
+    overflow: scroll;
 }
 
 .code-indent {
