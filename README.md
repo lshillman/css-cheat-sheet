@@ -3,6 +3,11 @@
 Useful CSS code snippets asembled here for your convenience. 
 
 
+## Demonstration:
+
+![screenshot GIF of page demonstration](./assets/CSS%20Cheat%20Sheet.gif)
+
+
 ## Resources:
 
 
