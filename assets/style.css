@@ -28,21 +28,21 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    width: 1000px;
 }
 
 .card {
     border: 1px solid var(--cardborder);
     padding: 1.5rem;
-    width: 25%;
-    margin: 1rem;
+    width: 30%;
+    margin: 1rem 1rem 3rem 1rem;
     box-shadow: 5px 7px var(--headerbg);
     border-radius: 20px;
     background: var(--cardbg);
+    box-sizing: border-box;
 }
 
 .card h2 {
-    margin-top: 0;
+    margin-top: -3rem;
     background: var(--headerbg);
     color: var(--lighttext);
     text-align: center;
@@ -61,6 +61,7 @@ pre {
     padding: 10px;
     user-select: all;
     overflow: scroll;
+    white-space: pre-wrap;
 }
 
 .code-indent {
@@ -77,20 +78,14 @@ footer {
 
 
 @media screen and (max-width: 991px) {
-    main{
-        width: 100%;
-    }
     .card {
-      width: 30%;
+      flex-basis: 40%;
     }
   }
 
 
 @media screen and (max-width: 767px) {
-    main{
-        width: 100%;
-    }
     .card {
-      width: 100%;
+        flex-basis: 100%;
     }
   }
